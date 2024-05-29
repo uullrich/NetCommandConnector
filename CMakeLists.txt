@@ -26,6 +26,7 @@ set(SRC_FILES ${PROJECT_SOURCE_DIR}/net/Endpoint.cpp
               ${PROJECT_SOURCE_DIR}/net/ResponseHandler.cpp
               ${PROJECT_SOURCE_DIR}/net/ResponseExecutor.cpp
               ${PROJECT_SOURCE_DIR}/net/ResponseInterpreter.cpp
+              ${PROJECT_SOURCE_DIR}/net/ResponseExecutionInterface.cpp
 )
 
 add_library(NetCommandConnector STATIC ${SRC_FILES})
